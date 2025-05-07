@@ -75,13 +75,13 @@
         }
 
         getModel() {
-            console.log(`the model is ${this.model}`)
+            return `the model is ${this.model}`
         }
     }
 
     const myCar = new Car("Toyota", 2020, "Corolla");
-    myCar.getInfo();
-    myCar.getModel();
+    console.log(myCar.getInfo());
+    console.log(myCar.getModel());
     //
 }
 
@@ -125,7 +125,7 @@
         { name: "Bag", price: 50 }
     ];
 
-    getMostExpensiveProduct(products);
+    console.log(getMostExpensiveProduct(products));
     // Output: { name: "Bag", price: 50 }
     //
 }
