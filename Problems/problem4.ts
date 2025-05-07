@@ -24,3 +24,7 @@ class Car extends Vehicle {
         console.log(`the model is ${this.model}`)
     }
 }
+
+const myCar = new Car("Toyota", 2020, "Corolla");
+myCar.getInfo();
+myCar.getModel();
