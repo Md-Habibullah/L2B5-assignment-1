@@ -26,12 +26,12 @@
 
 - Union means a variable can be one of multiple types.
 
-<pre>```
+```
 let userId: string | number;
 
 userId = "abc123";
 userId = 101;
-```<pre/>
+```
 if we provite the id as string or number both will be okay.
 
 - Intersection means combining multiple types into one type that set all the properties from each type .
