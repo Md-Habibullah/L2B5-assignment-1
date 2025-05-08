@@ -26,8 +26,7 @@
 
 - Union means a variable can be one of multiple types.
 
-``
-let userId: string | number;
+```let userId: string | number;
 
 userId = "abc123";
 userId = 101;
@@ -35,8 +34,8 @@ userId = 101;
 if we provite the id as string or number both will be okay.
 
 - Intersection means combining multiple types into one type that set all the properties from each type .
-```
-type Person = {
+
+```type Person = {
   name: string;
 };
 
