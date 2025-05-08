@@ -1,7 +1,7 @@
 
-##Welcome to the blog of Typescript interview questions.
+## Welcome to the blog of Typescript interview questions.
 
-###How Does TypeScript Help in Improving Code Quality and Project Maintainability?
+### How Does TypeScript Help in Improving Code Quality and Project Maintainability?
 
 - TypeScript enhances code quality and maintainability through type checking, code suggestions and throw error in editor code ground. Typescript is sweetable for learger projects.
 
@@ -22,15 +22,16 @@
 - By using typescript we can reduce the bugs because its so powerful and secure types.
 
 
-###Union and intersection types examples in TypeScript:
+### Union and intersection types examples in TypeScript:
 
 - Union means a variable can be one of multiple types.
 
-```let userId: string | number;
+<pre>```
+let userId: string | number;
 
 userId = "abc123";
 userId = 101;
-```
+```<pre/>
 if we provite the id as string or number both will be okay.
 
 - Intersection means combining multiple types into one type that set all the properties from each type .
