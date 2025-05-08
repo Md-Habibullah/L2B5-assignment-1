@@ -27,28 +27,28 @@
 - Union means a variable can be one of multiple types.
 
 ```
-let userId: string | number;
+let year: string | number;
 
-userId = "abc123";
-userId = 101;
+year = "2025";
+year = 2025;
 ```
 if we provite the id as string or number both will be okay.
 
 - Intersection means combining multiple types into one type that set all the properties from each type .
 
 ```
-type Person = {
+type Person1 = {
   name: string;
 };
 
-type Employee = {
-  salary: number;
+type Person2 = {
+  age: number;
 };
 
-type Staff = Person & Employee;
+type Person = Person1 & Person2;
 
-const staff1: Staff = {
-  name: "Shuvo",
-  salary: 30000
+const person: Person = {
+  name: "Rakib",
+  age: 30
 };
 ```
